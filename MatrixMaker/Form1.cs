@@ -53,9 +53,9 @@ namespace MatrixMaker
                         field.TabIndex = tabIndex;
                         tabIndex++;
                         Controls.Add(field);
-                        x += 40;
+                        x += 38;
                     }
-                    c += 30;
+                    c += 25;
                 }
             }
         }
@@ -95,15 +95,10 @@ namespace MatrixMaker
                     {
                         string fieldText = Controls.Find($"m{i}{j}", false)[0].Text;
                         string[] units = Regex.Split(fieldText, @"\/\+\-\*\^");
-                        
                         output.Text += fieldText+"&";
-                        
-                        
                     }
-
                     output.Text += "\\\\\r\n";
                 }
-                
                 output.Text += retEnd;
             }
         }
