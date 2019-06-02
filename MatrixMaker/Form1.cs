@@ -35,7 +35,9 @@ namespace MatrixMaker
                     Controls.Remove(Controls.Find($"m{i}{j}", false)[0]);
                 }
             }
-            int tabIndex = 7;
+            
+            int tabIndex = 10;
+            
             row =  Int32.Parse(rows.Text);
             col = Int32.Parse(columns.Text);
             if (rows.Text.Length > 0 && columns.Text.Length > 0){
@@ -70,7 +72,16 @@ namespace MatrixMaker
         private void LatexOutput(){
             if (rows.Text.Length > 0 && columns.Text.Length > 0){
                 string ret = "";
-                string retEnd = "";
+                if (radioButton2.Checked)
+                {
+                    ret += "\\(";
+                }
+                else if (radioButton3.Checked)
+                {
+                    ret += "\\[";
+                }
+                
+                string retEnd = ""; 
                 switch (brackets.Text){
                     case "{":
                         ret += "\\left\\{";
@@ -84,11 +95,25 @@ namespace MatrixMaker
                         ret += "\\left[";
                         retEnd += "\\right]";
                         break;
+                    case "|":
+                        ret += "\\left|";
+                        retEnd += "\\right|";
+                        break;
                 }
-
+                
                 string spacing = String.Concat(Enumerable.Repeat("c", col));
                 ret += $"\\begin{{array}}{{{spacing}}}\r\n";
                 retEnd += "\n\\end{array}";
+                
+                if (radioButton2.Checked)
+                {
+                    retEnd += "\\)";
+                }
+                else if (radioButton3.Checked)
+                {
+                    retEnd += "\\]";
+                }
+                
                 output.Text = ret;
                 for (int i = 0; i < row; i++){
                     for (int j = 0; j < col; j++)

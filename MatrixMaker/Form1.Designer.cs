@@ -41,6 +41,9 @@ namespace MatrixMaker
             this.matrix = new System.Windows.Forms.Button();
             this.latex = new System.Windows.Forms.Button();
             this.output = new System.Windows.Forms.TextBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             this.label1.Location = new System.Drawing.Point(13, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -102,9 +105,36 @@ namespace MatrixMaker
             this.output.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.output.Size = new System.Drawing.Size(298, 85);
             this.output.TabIndex = 6;
+            this.radioButton1.Location = new System.Drawing.Point(603, 8);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(94, 28);
+            this.radioButton1.TabIndex = 8;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "None";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton2.Location = new System.Drawing.Point(603, 35);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(94, 28);
+            this.radioButton2.TabIndex = 8;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Inline Math";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton3.Location = new System.Drawing.Point(603, 60);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(94, 28);
+            this.radioButton3.TabIndex = 7;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Math field";
+            this.radioButton3.UseVisualStyleBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(608, 435);
+            this.ClientSize = new System.Drawing.Size(710, 435);
+            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.output);
             this.Controls.Add(this.latex);
             this.Controls.Add(this.matrix);
@@ -131,6 +161,9 @@ namespace MatrixMaker
         private System.Windows.Forms.ComboBox brackets;
         private System.Windows.Forms.Button latex;
         private System.Windows.Forms.TextBox output;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Label label3;
     }
 }
