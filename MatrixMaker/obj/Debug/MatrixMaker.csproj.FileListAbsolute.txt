@@ -1,0 +1,10 @@
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\bin\Debug\MatrixMaker.exe.config
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\bin\Debug\MatrixMaker.exe
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\bin\Debug\MatrixMaker.pdb
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\obj\Debug\MatrixMaker.csprojAssemblyReference.cache
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\obj\Debug\MatrixMaker.Form1.resources
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\obj\Debug\MatrixMaker.Properties.Resources.resources
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\obj\Debug\MatrixMaker.csproj.GenerateResource.cache
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\obj\Debug\MatrixMaker.csproj.CoreCompileInputs.cache
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\obj\Debug\MatrixMaker.exe
+C:\Users\emil\RiderProjects\RiderTest\MatrixMaker\obj\Debug\MatrixMaker.pdb

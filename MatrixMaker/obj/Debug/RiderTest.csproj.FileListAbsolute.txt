@@ -1,0 +1,10 @@
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\bin\Debug\RiderTest.exe.config
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\bin\Debug\RiderTest.exe
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\bin\Debug\RiderTest.pdb
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\obj\Debug\RiderTest.csprojAssemblyReference.cache
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\obj\Debug\RiderTest.Properties.Resources.resources
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\obj\Debug\RiderTest.csproj.GenerateResource.cache
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\obj\Debug\RiderTest.csproj.CoreCompileInputs.cache
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\obj\Debug\RiderTest.exe
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\obj\Debug\RiderTest.pdb
+C:\Users\emil\RiderProjects\RiderTest\RiderTest\obj\Debug\RiderTest.Form1.resources
