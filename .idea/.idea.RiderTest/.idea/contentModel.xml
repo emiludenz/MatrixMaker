@@ -7,9 +7,11 @@
       <e p="MatrixMaker" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Form1.cs" t="Include" />
-        <e p="Form1.Designer.cs" t="Include" />
-        <e p="Form1.resx" t="Include" />
+        <e p="LatexParser.cs" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="Main.Designer.cs" t="Include" />
+        <e p="Main.resx" t="Include" />
+        <e p="MatrixCreator.cs" t="Include" />
         <e p="MatrixMaker.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
